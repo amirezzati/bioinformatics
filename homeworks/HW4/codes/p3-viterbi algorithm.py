@@ -28,7 +28,6 @@ for i in range(len(states)):
 
 # print(transition)
 # print(emission)
-# print(pi)
 # print(x)
 
 # path_probability in each length with each state
