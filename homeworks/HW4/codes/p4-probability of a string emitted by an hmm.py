@@ -30,7 +30,7 @@ for i in range(len(states)):
 # print(emission)
 # print(x)
 
-# path_probability in each length with each state
+# probability of observation in each length: P(X)
 probability = []
 # add probability for length 1 (X[0])
 probability.append({state : (1.0 / len(states)) * emission[states_idx[state]][alphabet_idx[x[0]]] for state in states})
