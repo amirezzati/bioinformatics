@@ -11,7 +11,7 @@ pi = list(inputFile.readline().strip()) # hidden path
 inputFile.readline() # --
 states = inputFile.readline().split()
 inputFile.readline() # --
-column_alphabet = inputFile.readline().strip().split() # column states
+column_alphabet = inputFile.readline().strip().split() # column alphabet
 
 emission = {}
 for i in range(len(states)):
@@ -19,7 +19,7 @@ for i in range(len(states)):
     for j in range(len(column_alphabet)):
         emission[(row[0], column_alphabet[j])] = float(row[j+1])
 
-# print(transition)
+# print(emission)
 # print(pi)
 # print(x)
 
