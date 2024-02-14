@@ -5,4 +5,5 @@ Instructor: Dr. Akbari and Dr. Razani
 
 - Presentation slides are accessible within this [directory](https://github.com/amirezzati/bioinformatics/tree/main/slides)
 - My homework approaches are accessible in this [directory](https://github.com/amirezzati/bioinformatics/tree/main/homeworks)
+- Our final project is accessible in this [repository](https://github.com/amirezzati/bioinformatics-project)
 
